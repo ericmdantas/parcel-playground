@@ -1,5 +1,21 @@
-document.getElementById('yo').innerText = "!!!"
+import './index.css'
+import Vue from 'vue/dist/vue'
 
-setTimeout(() => {
-	document.getElementById('yo').innerText = "... :D"
-}, 2000)
+new Vue({
+	el: '#app',
+	data() {
+		return {
+			msg: ':|'
+		}
+	},
+	template: `
+		<div>
+			<h1>{{msg}}</h1>
+		</div>
+	`,
+	mounted() {
+		setTimeout(() => {
+			this.msg = ":D"
+		}, 2000)		
+	}
+})
