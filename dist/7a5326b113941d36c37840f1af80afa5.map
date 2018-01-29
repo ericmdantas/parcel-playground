@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AACA;AACA;AACA;AACA","file":"7a5326b113941d36c37840f1af80afa5.map","sourcesContent":["document.getElementById('yo').innerText = \"!!!\"\r\n\r\nsetTimeout(() => {\r\n\tdocument.getElementById('yo').innerText = \"... :D\"\r\n}, 2000)"]}
